@@ -2,7 +2,7 @@
 //  LazyGridViewSelectionApp.swift
 //  LazyGridViewSelection
 //
-//  Created by Ilia Kolomeitsev on 21.09.2023.
+//  Created by Ilia Kolo on 21.09.2023.
 //
 
 import SwiftUI
@@ -11,7 +11,8 @@ import SwiftUI
 struct LazyGridViewSelectionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocalGridView()
+                .frame(minWidth: 300, minHeight: 200)
         }
     }
 }
